@@ -56,17 +56,6 @@ Use Durable Functions for more robust archiving
 Cache frequent cold reads using Azure CDN or Redis
 Add data lifecycle policies and blob tiering (Cool → Archive)
 
-Directory Structure (Suggestion)
-
-/Azure-Cost-Optimization-Screening
-├── functions
-│   ├── archive_old_records.py
-│   └── get_record.py
-├── infra
-│   └── storage_setup.sh
-├── README.md
-└── requirements.txt
-
 Requirements
 Azure Subscription
 Azure CLI
